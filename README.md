@@ -1,6 +1,8 @@
 # python sentry api utility
 usage:
 ```bash
+poetry install
+poetry shell
 python -m src <org-slug>
 ```
 
