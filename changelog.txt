@@ -1,0 +1,207 @@
+   Version: 1.1.7 Configuration: staging
+
+---
+
+Seth Lachman - Merged PR 237961: Added InputAccessoryView to feedback modal TextInput.
+Added InputAccessoryView to feedback modal TextInput.
+
+Related work items: #1024478
+
+---
+
+Seth Lachman - Merged PR 237926: Updates to feedback form.
+Remove sticky footer. Update character limit to 800.
+
+Related work items: #1024478
+
+---
+
+Steve Conner - Merged PR 237669: 1023296 - fix issue with settings button being transparent after canceling action sheet
+Related work items: #1023296
+
+---
+
+Steve Conner - Merged PR 236822: 1017204 - fix address form errors
+Related work items: #1017204
+
+---
+
+Garrett Groce - Merged PR 237150: Adding testID attributes to assist with automation
+Components affected:
+
+- OrderDetails OrderInformation, OrderItems, & index
+- OrdersScreen/OrdersHeader
+- ProductDetails PreviouslyPurchased, AddToCart/index, ProductReview, ProductTitle, SpecificationsSection, and Reviews components
+- Search/SearchSuggestions
+- ViewCart DuplicateModel and SubItem
+- common/Select
+
+Related work items: #985488, #985491, #985545, #985579, #1010680, #1020481
+
+---
+
+Milos Djordjevic - Merged PR 237088: Ticket #972615 - Keyboard logic updated
+keyboard fix
+
+Related work items: #972615
+
+---
+
+Steve Conner - Merged PR 237128: 814223 - Enable account shipping section
+Related work items: #814223
+
+---
+
+Milos Djordjevic - Merged PR 236987: Ticket #972615 - Cart controls size updates
+sizes updated
+
+Related work items: #972615
+
+---
+
+Steve Conner - Merged PR 235989: 1016243 - replace react-native-ios-context-menu with react-native-context-menu-view
+Related work items: #1016243
+
+---
+
+Steve Conner - Merged PR 236545: 1019629 - add an analytics event for AR button press
+Related work items: #1019629
+
+---
+
+Seth Lachman - Merged PR 236809: Adjust Review Text
+Adjusted review text. Upgraded TypeScript Version. Fixed lint errors.
+
+Related work items: #1003726
+
+---
+
+Sir Nicholas - Merged PR 236536: Ticket #1010353 - Sale Pricing PLP Ribbon
+- removed sale ribbon from original place.
+- added sale ribbon next to sale price
+- sale ribbon on PLP no longer skewed.
+
+Related work items: #1010353
+
+---
+
+Steve Conner - Merged PR 236301: 1017204 - refactor save button to not be disabled
+Related work items: #1017204
+
+---
+
+Seth Lachman - Merged PR 236544: Updating use user hook to handle 404s.
+Updating use user hook to handle 404s.
+
+---
+
+Milos Djordjevic - Merged PR 236284: Ticket #1018192 - UI Cart checkout button visual issues
+cart is back to scrollview
+
+Related work items: #1018192
+
+---
+
+Milos Djordjevic - Merged PR 236140: Ticket #972615 - Cart edit rewrite
+Extracted controls into their own components for better management
+Quantity state is now managed by server, not by the local state
+
+Related work items: #972615
+
+---
+
+Seth Lachman - Merged PR 236373: Added specialized route.
+Added specialized route.
+
+Related work items: #1005726
+
+---
+
+Steve Conner - Merged PR 236170: 1016424 - replace ActionSheetIOS with @expo/react-native-action-sheet
+Related work items: #1016424
+
+---
+
+Seth Lachman - Merged PR 236250: Updates to mini ad to handle lack of text for initial launch.
+Updates to mini ad to handle lack of text for initial launch.
+
+Related work items: #1018579
+
+---
+
+Sir Nicholas - Merged PR 236188: Ticket #772097 - Vendor Brand Link
+- PDP brand tile will take you to PLP filtered with category and brand.
+
+Related work items: #772097
+
+---
+
+Seth Lachman - Merged PR 235866: Added product count to search bar.
+Added product count to search bar.
+
+Related work items: #1007166
+
+---
+
+Seth Lachman - Merged PR 235823: Updated iso pattern to be more inclusive.
+Updated iso pattern to be more inclusive.
+
+Related work items: #1016650
+
+---
+
+Steve Conner - Merged PR 235538: 1016447 - fix crash by null checking
+When i wrote this code earlier this year, i wasn't aware that addressLine2 could ever come back as undefined or null, when using an older customer index i ran into this today.
+
+Related work items: #1016447
+
+---
+
+Seth Lachman - Merged PR 235208: Security vulnerability updates.
+Security vulnerability updates.
+
+Related work items: #1010668
+
+---
+
+Steve Conner - Merged PR 230970: Revert 'Revert 'Revert 'Revert 'Revert 'Revert '978391 - FlatList back in ViewCart''''''
+Reverts the reverting on ViewCart.
+Also fixed the restrictions being attached to the sticky header.
+Refactored a little bit to make the screen's code easier to understand.
+
+Reverts !227869
+
+Reverts !230103
+
+Reverts !230126
+
+Reverts !230288
+
+Reverts !230407
+
+Reverts !230455
+
+Related work items: #978391
+
+---
+
+Milos Djordjevic - Merged PR 230455: Revert 'Revert 'Revert 'Revert 'Revert '978391 - FlatList back in ViewCart'''''
+Reverts the reverting on ViewCart.
+Also fixed the restrictions being attached to the sticky header.
+Refactored a little bit to make the screen's code easier to understand.
+
+Reverts !227869
+
+Reverts !230103
+
+Reverts !230126
+
+Reverts !230288
+
+Reverts !230407
+
+Related work items: #978391
+
+---
+
+

@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "sentry-api-utility"
+version = "0.1.0"
+description = "Python module for messing with the sentry api"
+authors = ["Dan Frederick <dpfrederick@webstaurantstore.com>"]
+license = "AGPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.0"
+poethepoet = "^0.24.0"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+black = "^23.7.0"
+
+[tool.poetry.scripts]
+lint = "local.lint:main"
+
+[tool.poe.tasks]
+lint = "flake8 src"
+
+[tool.ruff]
+line-length = 150
+src = ["src"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

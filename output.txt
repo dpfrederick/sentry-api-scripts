@@ -1,0 +1,19 @@
+Summary: "Introducing the latest update for the WebstaurantStore app! 
+This version brings exciting enhancements and improvements to make your shopping experience even better.
+We've added an InputAccessoryView to the feedback form, updated the character limit for feedback, 
+and fixed issues with buttons and keyboard logic. Additionally, we've made visual updates, improved cart functionality, 
+and addressed security vulnerabilities. Upgrade now to enjoy a smoother, more secure shopping journey. 
+Thanks for using the WebstaurantStore app!"
+
+Summary: "
+
+We've made some exciting updates to the WebstaurantStore app! 
+
+In this latest version, we've added a new feature that allows you to provide feedback more easily. 
+We've also made improvements to the feedback form, removing the sticky footer and updating the character limit. 
+Plus, we've fixed some issues with settings buttons and address forms. We've also made some enhancements to improve 
+automation and fixed some keyboard logic. And of course, we've made various other updates and optimizations to make 
+your app experience even better. 
+
+Thanks for using the WebstaurantStore app!
+"
